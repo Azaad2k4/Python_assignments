@@ -1,0 +1,19 @@
+my_variable = 10
+num_users = 100
+abc143 = "Hello"
+name = "Hello"
+class Bike:
+    def __init__(self, color, make, model):
+        self.color = color
+        self.make = make
+        self.model = model
+my_bike = Bike('black', 'RE', 'Bullet')
+MAX_SIZE = 100 #global variable
+PI_VALUE = 3.14159
+#Reverse a String using slicing 
+letters = "ABCDEF"
+print(letters[::-1])
+#Explore dir() & help()
+import math
+print(dir(math))
+help(math)
